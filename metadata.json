@@ -1,0 +1,6 @@
+{
+  "name": "AI 윤리 딜레마 시뮬레이션",
+  "description": "자율주행, 생성형 AI 저작권, 알고리즘 심사를 주제로 한 참여형 AI 윤리 딜레마 시뮬레이션 및 실시간 통계 플랫폼",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

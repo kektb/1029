@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Gowun Dodum', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #4A3520;
+    background-color: #FDF3C7;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Jua', 'Fredoka', sans-serif;
+    letter-spacing: 0.01em;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'IBM Plex Mono', monospace;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.storybook-card {
+  background-color: #FFFDF5;
+  border: 2.5px solid #6B4F35;
+  box-shadow: 0 5px 0 #6B4F35;
+}
+
+.storybook-subcard {
+  background-color: #FFF9E2;
+  border: 2px solid #8C6D4F;
+}
+
+.storybook-btn-primary {
+  background-color: #56A845;
+  color: #FFFFFF;
+  border: 2.5px solid #4A3520;
+  box-shadow: 0 4px 0 #4A3520;
+}
+
+.storybook-btn-primary:hover:not(:disabled) {
+  background-color: #499439;
+  transform: translateY(1px);
+  box-shadow: 0 3px 0 #4A3520;
+}
+
+.storybook-btn-secondary {
+  background-color: #FFE066;
+  color: #4A3520;
+  border: 2.5px solid #4A3520;
+  box-shadow: 0 4px 0 #4A3520;
+}
+
+.storybook-btn-secondary:hover:not(:disabled) {
+  background-color: #FFD43B;
+  transform: translateY(1px);
+  box-shadow: 0 3px 0 #4A3520;
+}
+
